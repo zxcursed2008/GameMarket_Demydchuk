@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(225, 250, 114);
+    display: flex;
+    font-size: 100px;
+    flex-direction: row;
+    display: flex;
+}
+
+div {
+    border: 1px solid orange;
+    border-radius: 10px;
+}
