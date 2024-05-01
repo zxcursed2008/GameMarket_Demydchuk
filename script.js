@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Змінюємо стиль кнопки, щоб вона розташовувалася праворуч
     myButton.style.position = "fixed"; // Встановлюємо фіксовану позицію
-    myButton.style.right = "860px"; // Встановлюємо відстань від правого краю екрану
+    myButton.style.right = "880px"; // Встановлюємо відстань від правого краю екрану
     myButton.style.top = "400px"; // Необов'язково, встановлюємо відстань від верхнього краю екрану
 });
 
