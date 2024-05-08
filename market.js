@@ -33,7 +33,7 @@ itemsArray.forEach((item, index)=>{
     // itemsDiv.innerHTML += '<div class = "item"></div>' 
     // itemsDiv.innerHTML += '<div class = "item"></div>' 
     for (let i =0; i<=3; i++){
-        itemsDiv.innerHTML += `<div class = "item"></div>`
+        itemsDiv.innerHTML += '<div class = "item"></div>'
     }
 } else {
     //Вивід повідомлення про не знайдений блок 
