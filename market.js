@@ -1,51 +1,48 @@
-//Перевірка підключеного файлу скриптів
-console.log('Перевірка підключеного файлу скриптів market.js')
-
-
+// //Перевірка підключеного файлу скриптів
+// console.log('Перевірка підключеного файлу скриптів market.js')
+// // Отримання елементу з ідентифікатором items
+// let itemsDiv =document.getElementById("items"); 
 //Визначення масиву товарів
 let itemsArray = [
     'Газоноосарка 43',
     'Електричний тример 110',
     'Електрична газонокосарка 32',
-    'Акумуляторний оприскувач 12 N'
+    'Акумуляторний оприскувач 12 N',
+    'Газоноосарка 52',
+    'Електричний тример 69',
+    'Електрична газонокосарка 14',
+    'Акумуляторний оприскувач 88 N',
+    'Газоноосарка 19',
+    'Електричний тример 39',
+    'Електрична газонокосарка 04',
+    'Акумуляторний оприскувач 20 N',
 ]
-
-// Отримання елементу з ідентифікатором items
-let itemsDiv =document.getElementById("items"); 
+//Отримання елементу з індифекатором items
+let itemsDiv = document.getElementById("items");
 //Перевірка існування знайденого блоку 
 if (itemsDiv) { 
-
-    //Виведення елементів масиву
-itemsArray.forEach((item, index)=>{
-    itemsDiv.innerHTML +=`<div class = "item"></div>`
-    console.log(item)
+     //Створення блоків по кількості елементів масиву
+itemsArray.forEach((item,index)=>{
+    //Спеціальний апостроф - Англійська розкладка - біля кнопки 1 ~
+    // console.log(item)
+ // Виводимо на веб-сторінку елемент масиву в блок з класом item
+ itemsDiv.innerHTML += `<div class="item">
+ <h2>Товар №${index + 1} з ${itemsArray.length}</h2><p>${item}</p></div>`
 })
-    //Вивід знайденого елементу 
-    console.log(itemsDiv) 
-    //Вивід значення поля знайденого елементу
-    // console.log('Поле classList: ', itemsDiv.classList)
-    // console.log('Поле id: ', itemsDiv.id)
-    // conlose.log('Поле clientWidth: ', itemsDiv.clientWidth)
-    // console.log('Поле innerHTML:', itemsDiv.innerHTML)
     //Додавання відформатованого HTML коду в блок 
     // itemsDiv.innerHTML += '<div class = "item"></div>' 
     // itemsDiv.innerHTML += '<div class = "item"></div>' 
     // itemsDiv.innerHTML += '<div class = "item"></div>' 
     // itemsDiv.innerHTML += '<div class = "item"></div>' 
-    for (let i =0; i<=3; i++){
-        itemsDiv.innerHTML += '<div class = "item"></div>'
-    }
+    // for (let i =0; i<=100; i++){
+    //     itemsDiv.innerHTML += '<div class = "item"></div>'
+    // }
 } else {
     //Вивід повідомлення про не знайдений блок 
     console.log('Блок товарів не знайдено')
 } 
 
 
-//Виведення елементів масиву
-itemsArray.forEach((item)=>{
-    itemsDiv.innerHTML +=`<div class = "item"></div>`
-    console.log(item)
-})
 // //Виведення елементів відсортованого масиву
 // itemsArray.sort().forEach((item,index) =>{
 //     console.log(index + '-й елемент:',item)
