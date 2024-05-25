@@ -71,10 +71,10 @@ let ItemsArray = [
         image: "Демидчук_гра.png", 
         game_github: "https://github.com/zxcursed2008/Phaser2ndGame",
         game_pages: "https://zxcursed2008.github.io/Phaser2ndGame/",
-        docs: "https://drive.google.com/drive/folders/1BfaZ86pNTA3FO_rOn196XXKOLYNQQ81E",
+        docs: "https://drive.google.com/drive/folders/1Ufwj8GdpI3SvRLCYnj_JB8uxmpRUPjVr?usp=sharing",
         forms: "https://forms.gle/xs7rgVauTR9ryuNc7",
         gamemarket_github: "https://github.com/zxcursed2008/GameMarket_Demydchuk/",
-        gamemarket_pages: "https://zxcursed2008.github.io/GameMarket_Demydchuk/",
+        gamemarket_pages: "https://zxcursed2008.github.io/GameMarket_Demydchuk/market.html",
         market_pages: "https://zxcursed2008.github.io/GameMarket_Demydchuk/Final_GameMarket/market_final.html"
     },
     {
