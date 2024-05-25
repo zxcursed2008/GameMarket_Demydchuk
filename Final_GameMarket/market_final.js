@@ -75,7 +75,7 @@ let ItemsArray = [
         forms: "https://forms.gle/xs7rgVauTR9ryuNc7",
         gamemarket_github: "https://github.com/zxcursed2008/GameMarket_Demydchuk/",
         gamemarket_pages: "https://zxcursed2008.github.io/GameMarket_Demydchuk/",
-        market_pages: "https://zxcursed2008.github.io/GameMarket_Demydchuk/market.html"
+        market_pages: "https://zxcursed2008.github.io/GameMarket_Demydchuk/Final_GameMarket/market_final.html"
     },
     {
         title: "Царівна жаба",
